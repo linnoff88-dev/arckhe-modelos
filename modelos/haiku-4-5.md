@@ -12,7 +12,7 @@ esforco_recomendado: ""
 custo_tokens: baixo
 fonte: observações de terceiros (2026-09-23) + claude-api skill (id/preço)
 data_fonte: 2026-09-23
-testado_inema: nêo
+testado_ARCKHÉ: nêo
 reavaliar_em: 2026-09-30
 ---
 

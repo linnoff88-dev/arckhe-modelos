@@ -1,6 +1,6 @@
 ---
 name: escolher-modelo
-description: Escolhe o modelo de IA (Claude, GPT-6, Grok) certo para uma tarefa com base na pilha atual do INEMA. Use quando o usuário perguntar "qual modelo uso", "Opus ou GPT", "vale usar Fable/Sonnet/Haiku", "quem planeja e quem executa", ou antes de montar um fluxo com mais de um modelo.
+description: Escolhe o modelo de IA (Claude, GPT-6, Grok) certo para uma tarefa com base na pilha atual do ARCKHÉ. Use quando o usuário perguntar "qual modelo uso", "Opus ou GPT", "vale usar Fable/Sonnet/Haiku", "quem planeja e quem executa", ou antes de montar um fluxo com mais de um modelo.
 ---
 
 # Escolher modelo

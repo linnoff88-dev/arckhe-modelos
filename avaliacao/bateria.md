@@ -1,4 +1,4 @@
-# Bateria INEMA — teste próprio dos modelos
+# Bateria ARCKHÉ — teste próprio dos modelos
 
 Objetivo: trocar "o que os outros acharam" por evidência nas **nossas** tarefas.
 Rodar 1× agora (lua de mel) e repetir a partir de **2026-09-30**.
@@ -12,11 +12,11 @@ Rodar 1× agora (lua de mel) e repetir a partir de **2026-09-30**.
 
 ## Casos (do mais barato ao mais caro)
 
-| # | Caso INEMA | Tipo | Modelos | Critério de "bom" |
+| # | Caso ARCKHÉ | Tipo | Modelos | Critério de "bom" |
 |---|---|---|---|---|
 | 1 | Renomear/extrair dados de um lote de arquivos | braçal | Luna Low, Haiku 4.5, Opus 5.5 low | 100% certo, nada fora do pedido |
 | 2 | Corrigir bug real de um projeto (com teste que falha) | código | Sol, Opus 5.5 | teste passa, diff pequeno |
-| 3 | Roteiro de reel a partir de ideia bruta | criativo/texto | Opus 5.5, Sol | gancho forte, tom INEMA, pronto pra gravar |
+| 3 | Roteiro de reel a partir de ideia bruta | criativo/texto | Opus 5.5, Sol | gancho forte, tom ARCKHÉ, pronto pra gravar |
 | 4 | Guia landing de um repo (`projetos-landing-guia`) | design | Opus 5.5, Sol | publicável sem retoque visual |
 | 5 | Módulo de curso v5 | conteúdo longo | Opus 5.5, Sol | didático p/ público 40+, sem erro factual |
 | 6 | Vídeo curto em Hyperframes | vídeo | Opus 5.5, Sol | ritmo, áudio, sem bug de render |

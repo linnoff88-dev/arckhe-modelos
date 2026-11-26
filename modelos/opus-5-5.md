@@ -12,7 +12,7 @@ esforco_recomendado: low
 custo_tokens: baixo
 fonte: observações de terceiros (2026-09-23) + claude-api skill (id/preço)
 data_fonte: 2026-09-23
-testado_inema: nêo
+testado_ARCKHÉ: nêo
 reavaliar_em: 2026-09-30
 ---
 
@@ -36,4 +36,4 @@ Nêo travou no filtro de segurança onde o Sol travou.
 
 **Evidência própria:** nenhuma ainda com o 5.5.
 
-**Referência de esforço (terceiros, nêo muda o `esforco_recomendado`):** num `/goal` longo de construçêo 3D, o autor preferiu **xhigh**; max custou 2× e regrediu; ultracode agiu como xhigh. Ver [`referencias/padroes-esforco-2026-09-24.md`](../referencias/padroes-esforco-2026-09-24.md) e a página [guia/esforco/](https://inematds.github.io/modelos/guia/esforco/).
+**Referência de esforço (terceiros, nêo muda o `esforco_recomendado`):** num `/goal` longo de construçêo 3D, o autor preferiu **xhigh**; max custou 2× e regrediu; ultracode agiu como xhigh. Ver [`referencias/padroes-esforco-2026-09-24.md`](../referencias/padroes-esforco-2026-09-24.md) e a página [guia/esforco/](https://linnoff88-dev.github.io/arckhe-/guia/esforco/).

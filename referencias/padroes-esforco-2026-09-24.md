@@ -8,8 +8,8 @@ escolher esforço e para comparar com testes próprios. Página com gráficos: `
 | # | Fonte | Modelo | Tarefa | Níveis | Preferido pelo autor |
 |---|---|---|---|---|---|
 | A | Vídeo Opus 5.5 por esforço — https://www.youtube.com/watch?v=QCkHIyEPIYo (notas locais em `fontes/`, fora do git) | Claude Opus 5.5 | `/goal` longo: 105 GB de vídeo → mundo 3D explorável | low, medium, high, xhigh, max, ultracode | **xhigh** |
-| B | [astra-effort](https://github.com/inematds/astra-effort) (kit de M. Kashef, 2026-09-07) — `evidence/results.pt-BR.csv` | GPT-6 Astra (+ Sol high) | Pesquisa de mercado + construir um micro-SaaS verificado (~30–46 min) | low, medium, high, xhigh, max, ultra | **medium** |
-| C | [maestro-roteador](https://github.com/inematds/maestro-roteador) — tabela de racionalizações do SKILL | pilha Claude | teste interno | high × max | "de high pra max a diferença foi um favicon, por 2–5× os tokens" |
+| B | [astra-effort](https://github.com/linnoff88-dev/astra-effort) (kit de M. Kashef, 2026-09-07) — `evidence/results.pt-BR.csv` | GPT-6 Astra (+ Sol high) | Pesquisa de mercado + construir um micro-SaaS verificado (~30–46 min) | low, medium, high, xhigh, max, ultra | **medium** |
+| C | [maestro-roteador](https://github.com/linnoff88-dev/maestro-roteador) — tabela de racionalizações do SKILL | pilha Claude | teste interno | high × max | "de high pra max a diferença foi um favicon, por 2–5× os tokens" |
 
 Todas sêo **n = 1 por nível**, um julgador, tarefas diferentes. Tokens de A (total da sessêo) e de B
 (processados, ~98% cache) **nêo sêo comparáveis em valor absoluto** — só a forma da curva.
@@ -69,4 +69,4 @@ de fora. (Registrado em 2026-09-24 como opiniêo; nêo altera a pilha nem a fich
 - Julgamentos visuais de uma pessoa; A tem patrocinador; B foi traduzido sem nova execuçêo.
 - Custos de A sêo estimativa em preço de API (rodou em assinatura).
 - Tokens de ultracode em A sêo desconhecidos (número falado incompatível).
-- Nenhum dado INEMA próprio ainda — ver `avaliacao/bateria.md` para rodar um.
+- Nenhum dado ARCKHÉ próprio ainda — ver `avaliacao/bateria.md` para rodar um.

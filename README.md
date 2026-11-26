@@ -8,13 +8,13 @@
 
 > O modelo certo para cada tarefa êÂ· repositêÂ³rio `modelos`
 
-[![Qual modelo de IA usar](guia/assets/banner.jpg)](https://inematds.github.io/modelos/guia/)
+[![Qual modelo de IA usar](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 Muitos modelos chegaram ao mesmo tempo. A resposta prêÂ¡tica êÂ© simples:
 **use o melhor modelo para cada tarefa, sem lealdade a nenhuma plataforma.**
 
-ê°Å¸ââ **Guia:** [PortuguêÂªs](https://inematds.github.io/modelos/guia/) êÂ· [English](https://inematds.github.io/modelos/guia/en/) êÂ· [EspaêÂ±ol](https://inematds.github.io/modelos/guia/es/)
-ê°Å¸Â§Â© **Modelos explicados de forma simples:** [PT](https://inematds.github.io/modelos/guia/modelos/) êÂ· [EN](https://inematds.github.io/modelos/guia/en/modelos/) êÂ· [ES](https://inematds.github.io/modelos/guia/es/modelos/)
+ê°Å¸ââ **Guia:** [PortuguêÂªs](https://linnoff88-dev.github.io/arckhe-/guia/) êÂ· [English](https://linnoff88-dev.github.io/arckhe-/guia/en/) êÂ· [EspaêÂ±ol](https://linnoff88-dev.github.io/arckhe-/guia/es/)
+ê°Å¸Â§Â© **Modelos explicados de forma simples:** [PT](https://linnoff88-dev.github.io/arckhe-/guia/modelos/) êÂ· [EN](https://linnoff88-dev.github.io/arckhe-/guia/en/modelos/) êÂ· [ES](https://linnoff88-dev.github.io/arckhe-/guia/es/modelos/)
 
 ---
 
@@ -81,7 +81,7 @@ PrêÂ³xima revisêÂ£o: **2026-09-30**.
 |---|---|
 | Decidir rêÂ¡pido | a tabela acima |
 | Detalhe de um modelo | [`modelos/`](modelos/) ê¢â¬â uma ficha por modelo (YAML: status, melhor para, evitar para, esforêÂ§o) |
-| Ver dados de esforêÂ§o (Opus 5.5 êâ Astra, com grêÂ¡ficos) | [guia/esforco/](https://inematds.github.io/modelos/guia/esforco/) êÂ· [`referencias/padroes-esforco-2026-09-24.md`](referencias/padroes-esforco-2026-09-24.md) ê¢â¬â referêÂªncia, nêÂ£o regra |
+| Ver dados de esforêÂ§o (Opus 5.5 êâ Astra, com grêÂ¡ficos) | [guia/esforco/](https://linnoff88-dev.github.io/arckhe-/guia/esforco/) êÂ· [`referencias/padroes-esforco-2026-09-24.md`](referencias/padroes-esforco-2026-09-24.md) ê¢â¬â referêÂªncia, nêÂ£o regra |
 | Usar dois modelos juntos | [`prompts/`](prompts/) ê¢â¬â planejarê¢â âexecutar, segunda opiniêÂ£o, orquestrador+workers, tarefa braêÂ§al |
 | Entender as regras | [`regras.md`](regras.md) ê¢â¬â sem lealdade, lua de mel, cota por resultado, um agente por pasta, teste de 30 min |
 | Testar nas minhas tarefas | [`avaliacao/bateria.md`](avaliacao/bateria.md) ê¢â¬â 8 casos reais com nota 0ê¢â¬â3 |

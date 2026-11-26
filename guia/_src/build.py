@@ -2,15 +2,15 @@
 """Gera as páginas do guia (PT/EN/ES): guia/<lang>/index.html e guia/<lang>/modelos/index.html.
 
 Uso:  python3 guia/_src/build.py
-Conteúdo: MODELOS e T abaixo. Estilo: guia/_src/head.html (CSS do padrêo INEMA) + foot.html.
+Conteúdo: MODELOS e T abaixo. Estilo: guia/_src/head.html (CSS do padrêo ARCKHÉ) + foot.html.
 """
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]          # .../guia
 HEAD = (ROOT / "_src/head.html").read_text()
 FOOT = (ROOT / "_src/foot.html").read_text()
-REPO = "https://github.com/inematds/modelos"
-BASE = "https://inematds.github.io/modelos/guia/"
+REPO = "https://github.com/linnoff88-dev/modelos"
+BASE = "https://linnoff88-dev.github.io/arckhe-/guia/"
 LANGS = ["pt", "en", "es"]
 HTML_LANG = {"pt": "pt-BR", "en": "en", "es": "es"}
 BRAND = {"pt": "Qual Modelo de IA Usar", "en": "Which AI Model to Use", "es": "Qué Modelo de IA Usar"}
@@ -161,7 +161,7 @@ T = {
   "pre_chip": "Pré-requisitos", "pre_h": "O que você precisa", "pre_sub": "Nada para instalar além das ferramentas que você já usa.",
   "pre": [("Assinatura Claude", "Claude Code ou Claude Desktop, para o Opus 5.5.", '<span class="c"># ver consumo da cota</span>\n<span class="k">/usage</span>'),
           ("Assinatura Codex", "Codex CLI ou Codex Desktop, para GPT-6 Astra, Sol e Luna.", '<span class="k">codex</span>  <span class="c"># abre a sessêo</span>'),
-          ("O repositório", "Fichas, regras e prompts em Markdown.", '<span class="k">git clone</span> <span class="s">https://github.com/inematds/modelos</span>')],
+          ("O repositório", "Fichas, regras e prompts em Markdown.", '<span class="k">git clone</span> <span class="s">https://github.com/linnoff88-dev/modelos</span>')],
   "g_chip": "Guia de uso · passo a passo", "g_h": "Como usar no dia a dia", "g_sub": "Da consulta rápida até transformar o catálogo numa skill.",
   "steps": [("Consulte a pilha", "A tabela do README é a orientaçêo rápida. Na dúvida, abra a ficha do modelo.",
              '<span class="k">cat</span> README.md               <span class="c"># pilha por tarefa + regras</span>\n<span class="k">cat</span> modelos/opus-5-5.md     <span class="c"># ficha: melhor para, evitar para, esforço</span>'),
@@ -230,7 +230,7 @@ T = {
   "pre_chip": "Requirements", "pre_h": "What you need", "pre_sub": "Nothing to install beyond the tools you already use.",
   "pre": [("Claude subscription", "Claude Code or Claude Desktop, for Opus 5.5.", '<span class="c"># check quota usage</span>\n<span class="k">/usage</span>'),
           ("Codex subscription", "Codex CLI or Codex Desktop, for GPT-6 Astra, Sol and Luna.", '<span class="k">codex</span>  <span class="c"># opens a session</span>'),
-          ("The repository", "Model cards, rules and prompts in Markdown (written in Portuguese).", '<span class="k">git clone</span> <span class="s">https://github.com/inematds/modelos</span>')],
+          ("The repository", "Model cards, rules and prompts in Markdown (written in Portuguese).", '<span class="k">git clone</span> <span class="s">https://github.com/linnoff88-dev/modelos</span>')],
   "g_chip": "How to use · step by step", "g_h": "Day-to-day use", "g_sub": "From a quick lookup to turning the catalog into a skill.",
   "steps": [("Check the stack", "The README table is the quick reference. When in doubt, open the model's card.",
              '<span class="k">cat</span> README.md               <span class="c"># stack per task + rules</span>\n<span class="k">cat</span> modelos/opus-5-5.md     <span class="c"># card: best for, avoid for, effort</span>'),
@@ -298,7 +298,7 @@ T = {
   "pre_chip": "Requisitos", "pre_h": "Lo que necesitas", "pre_sub": "Nada que instalar además de las herramientas que ya usas.",
   "pre": [("Suscripción Claude", "Claude Code o Claude Desktop, para Opus 5.5.", '<span class="c"># ver consumo de la cuota</span>\n<span class="k">/usage</span>'),
           ("Suscripción Codex", "Codex CLI o Codex Desktop, para GPT-6 Astra, Sol y Luna.", '<span class="k">codex</span>  <span class="c"># abre la sesión</span>'),
-          ("El repositorio", "Fichas, reglas y prompts en Markdown (escritos en portugués).", '<span class="k">git clone</span> <span class="s">https://github.com/inematds/modelos</span>')],
+          ("El repositorio", "Fichas, reglas y prompts en Markdown (escritos en portugués).", '<span class="k">git clone</span> <span class="s">https://github.com/linnoff88-dev/modelos</span>')],
   "g_chip": "Guía de uso · paso a paso", "g_h": "Cómo usarlo en el día a día", "g_sub": "De la consulta rápida a convertir el catálogo en una skill.",
   "steps": [("Consulta el stack", "La tabla del README es la orientación rápida. Ante la duda, abre la ficha del modelo.",
              '<span class="k">cat</span> README.md               <span class="c"># stack por tarea + reglas</span>\n<span class="k">cat</span> modelos/opus-5-5.md     <span class="c"># ficha: mejor para, evitar para, esfuerzo</span>'),
@@ -360,9 +360,9 @@ def nav(lang, kind, depth):
   <a class="brand" href="{here}"><span class="emoji">🧭</span> {BRAND[lang]}</a>
   <span class="sep">|</span>
   <span class="clubpro">
-    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a>
     <span class="sep">-</span>
-    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+    <a class="pro" href="https://ARCKHÉ.pro" target="_blank" rel="noopener">PRO</a>
   </span>
   <div class="links">
 {sec}
@@ -381,8 +381,8 @@ def footer(lang, depth):
   <div class="wrap">
     <div class="pill">Markdown</div><div class="pill">YAML</div><div class="pill">Claude Code</div><div class="pill">Codex</div>
     <p style="margin-top:18px">{BRAND[lang]} · {t["foot"]} ·
-      <a href="{REPO}">inematds/modelos</a> · {langs} ·
-      <a href="https://inema.club">INEMA.CLUB</a></p>
+      <a href="{REPO}">linnoff88-dev/modelos</a> · {langs} ·
+      <a href="https://ARCKHÉ AI">ARCKHÉ AI</a></p>
   </div>
 </footer>
 

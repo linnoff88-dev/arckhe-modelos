@@ -12,7 +12,7 @@ esforco_recomendado: ""
 custo_tokens: alto
 fonte: observações de terceiros (2026-09-23) + claude-api skill (id/preço)
 data_fonte: 2026-09-23
-testado_inema: parcial (Fable 5 vs Opus 4.8 — ver abaixo)
+testado_ARCKHÉ: parcial (Fable 5 vs Opus 4.8 — ver abaixo)
 reavaliar_em: 2026-09-30
 ---
 

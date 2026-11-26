@@ -11,7 +11,7 @@ esforco_recomendado: medium-high
 custo_tokens: ""
 fonte: observações de terceiros (2026-09-23)
 data_fonte: 2026-09-23
-testado_inema: nêo
+testado_ARCKHÉ: nêo
 reavaliar_em: 2026-09-30
 ---
 
