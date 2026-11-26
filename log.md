@@ -1,6 +1,6 @@
 # Log de observações
 
-Uma linha por observação. Mais recente no topo. `fonte`: `terceiro` ou `inema` (teste próprio).
+Uma linha por observaçêo. Mais recente no topo. `fonte`: `terceiro` ou `inema` (teste próprio).
 
 | data | modelo | tarefa | resultado | fonte |
 |---|---|---|---|---|

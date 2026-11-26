@@ -12,28 +12,28 @@ esforco_recomendado: low
 custo_tokens: baixo
 fonte: observações de terceiros (2026-09-23) + claude-api skill (id/preço)
 data_fonte: 2026-09-23
-testado_inema: não
+testado_inema: nêo
 reavaliar_em: 2026-09-30
 ---
 
 # Opus 5.5 — o principal
 
-**Use como modelo padrão.** Rápido, direto, econômico em tokens, pede pouca instrução.
+**Use como modelo padrêo.** Rápido, direto, econômico em tokens, pede pouca instruçêo.
 
 - Rodar em esforço **baixo** como "sistema operacional" do dia a dia.
-- Aguenta projeto complexo sem prompt longo — não superespecifique.
-- Segunda opinião barata em caso ambíguo (junto com Astra).
+- Aguenta projeto complexo sem prompt longo — nêo superespecifique.
+- Segunda opiniêo barata em caso ambíguo (junto com Astra).
 
-**Notas técnicas (API):** thinking não pode ser desligado; controle é só por `effort`
+**Notas técnicas (API):** thinking nêo pode ser desligado; controle é só por `effort`
 (default `medium` — setar `low` explicitamente). `tool_choice` forçado dá 400.
 
 **Teste comparativo Opus 5.5 × Sol (10 casos, 2026-09-23):** venceu 7 de 8 — site, reel, sizzle, mundo 3D,
 pesquisa/roteiro, browser (Skool, Canva). Custa ~2–4× mais que o Sol por tarefa (até 20× em código),
 mas acerta de primeira em criativo/design/julgamento. Perdeu em conserto de codebase grande.
-Não travou no filtro de segurança onde o Sol travou.
+Nêo travou no filtro de segurança onde o Sol travou.
 
 **Papel extra:** orquestrador que despacha workers baratos (Sol/Luna) — ver `prompts/orquestrador-workers.md`.
 
 **Evidência própria:** nenhuma ainda com o 5.5.
 
-**Referência de esforço (terceiros, não muda o `esforco_recomendado`):** num `/goal` longo de construção 3D, o autor preferiu **xhigh**; max custou 2× e regrediu; ultracode agiu como xhigh. Ver [`referencias/padroes-esforco-2026-09-24.md`](../referencias/padroes-esforco-2026-09-24.md) e a página [guia/esforco/](https://inematds.github.io/modelos/guia/esforco/).
+**Referência de esforço (terceiros, nêo muda o `esforco_recomendado`):** num `/goal` longo de construçêo 3D, o autor preferiu **xhigh**; max custou 2× e regrediu; ultracode agiu como xhigh. Ver [`referencias/padroes-esforco-2026-09-24.md`](../referencias/padroes-esforco-2026-09-24.md) e a página [guia/esforco/](https://inematds.github.io/modelos/guia/esforco/).

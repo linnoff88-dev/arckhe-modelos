@@ -12,11 +12,11 @@ esforco_recomendado: ""
 custo_tokens: baixo
 fonte: observações de terceiros (2026-09-23) + claude-api skill (id/preço)
 data_fonte: 2026-09-23
-testado_inema: não
+testado_inema: nêo
 reavaliar_em: 2026-09-30
 ---
 
 # Haiku 4.5 — pular
 
 Avaliado como fraco. Substituto para tarefa simples e rápida: **GPT-6 Luna Low**.
-Dentro de fluxo só-Claude (subagente barato), ainda é a opção mais barata — testar antes de descartar.
+Dentro de fluxo só-Claude (subagente barato), ainda é a opçêo mais barata — testar antes de descartar.

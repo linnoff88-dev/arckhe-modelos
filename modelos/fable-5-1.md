@@ -20,8 +20,8 @@ reavaliar_em: 2026-09-30
 
 - Consome muito token (pode consumir metade do orçamento).
 - Opus 5.5 é melhor para uso geral e 2,5× mais barato por token.
-- Caso ambíguo: prefira **Astra + Opus 5.5 como segunda opinião**.
+- Caso ambíguo: prefira **Astra + Opus 5.5 como segunda opiniêo**.
 
 **Evidência própria (modelos anteriores):** `~/.claude/runbooks/fable-analise-completa.md` —
 Fable 5 pensava antes de agir em 85% dos turnos (Opus 4.8: 54%) e testava após editar em 41% (Opus 4.8: 2%).
-Não medido ainda contra o Opus 5.5. Esses hábitos podem ser pedidos via prompt a qualquer modelo.
+Nêo medido ainda contra o Opus 5.5. Esses hábitos podem ser pedidos via prompt a qualquer modelo.

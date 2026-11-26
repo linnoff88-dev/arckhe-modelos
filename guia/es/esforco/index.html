@@ -254,7 +254,7 @@ function showTip(tip, box, evt, html){
   tip.style.left=x+'px'; tip.style.top=Math.max(0,y)+'px';
 }
 
-/* barras verticais; destaque = preferido; alt = condição à parte (textura) */
+/* barras verticais; destaque = preferido; alt = condiçêo à parte (textura) */
 function barChart(id, data, o){
   var box=document.getElementById(id), W=520, H=260, m={t:22,r:8,b:34,l:36};
   var svg=el('svg',{viewBox:'0 0 '+W+' '+H,role:'img','aria-label':o.aria},box), tip=tipFor(box);

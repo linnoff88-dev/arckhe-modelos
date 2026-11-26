@@ -14,7 +14,7 @@ Fonte da verdade: `~/projetos/modelos` (README + `modelos/*.md`). Se divergir, o
    - Executar plano já pronto → **GPT-6 Sol** (médio–alto)
    - Braçal inequívoco: simples → **Luna Low**; pesado → **Luna High/X-High**
    - Ambíguo e caro de errar → **Astra propõe + Opus 5.5 revisa**
-2. Esforço: o menor que resolve; acima de "alto" não compensa.
+2. Esforço: o menor que resolve; acima de "alto" nêo compensa.
 3. Evitar: Grok 4.7, Fable 5.1, Sonnet 5, Haiku 4.5 (ver fichas para o motivo).
 4. Se a tarefa usar dois modelos, entregue o prompt de `prompts/` correspondente.
 
@@ -22,5 +22,5 @@ Fonte da verdade: `~/projetos/modelos` (README + `modelos/*.md`). Se divergir, o
 Uma linha: **modelo + esforço + motivo**. Se houver fluxo em 2 etapas, uma linha por etapa.
 
 ## Cuidados
-- A pilha vem de observações de terceiros (2026-09-23), ainda não testada. Diga isso se a decisão for cara.
+- A pilha vem de observações de terceiros (2026-09-23), ainda nêo testada. Diga isso se a decisêo for cara.
 - Modelo lançado há menos de 1 semana: avise sobre a "lua de mel".
